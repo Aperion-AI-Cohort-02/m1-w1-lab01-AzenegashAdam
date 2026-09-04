@@ -36,11 +36,11 @@ print(sign)
 
 # TODO 2: print "Cozy Cozy Cozy" -- careful, no space on the end!
 #         (tip: 2 * "Cozy " gives you "Cozy Cozy ")
-print("Cozy")
+print("cozy")
 
 # TODO 3: fix the double L in Wellcome using .replace()
 greeting = "Wellcome to The Cozy Bean"
-print(greeting)
+print(greeting.replace("Wellcome", "Welcome"))
 
 # TODO 4: make this chalkboard run over three lines by using
 #         triple quotes instead of the single quotes below
@@ -49,6 +49,6 @@ print(chalkboard)
 
 # TODO 5: finish the receipt line with an f-string so it uses
 #         the two jars below instead of hard-coded numbers
-cups = 2
-total = cups * 3.50
+cups = 3
+total = cups * 4.50
 print("Sara ordered ? lattes for ? dollars")

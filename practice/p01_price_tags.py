@@ -28,7 +28,7 @@
 
 
 # TODO 1: put the shop's name into this jar (it is text!)
-shop_name = ""
+shop_name = "Azu Coffee Shop"
 
 # TODO 2: put today's cup count into this jar (a whole number)
 cups_sold = 0

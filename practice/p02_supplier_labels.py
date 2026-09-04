@@ -26,20 +26,20 @@
 
 
 # This is exactly how it arrives from the supplier: as TEXT.
-bags_label = "12"
+bags_label = "10"
 price_label = "3.50"
 
 # TODO 1: repackage bags_label into a whole number
 bags = 0
 
 # TODO 2: repackage price_label into a decimal number
-price_per_bag = 0
+price_per_bag = 2.50
 
 print("Bags ordered:", bags)
 print("Price per bag:", price_per_bag)
 
 # TODO 3: work out the restock cost (bags times price per bag)
-restock_cost = 0
+restock_cost = 5
 
 print("Restock cost:", restock_cost)
 
