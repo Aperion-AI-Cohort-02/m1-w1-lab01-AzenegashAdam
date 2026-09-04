@@ -47,16 +47,16 @@ print("Sara gets a free cookie:", sara_gets_cookie)
 
 # ---- Ben ----
 ben_is_member = False
-ben_order = 7.00
+ben_order = 5.00
 
 # TODO 3: same two questions for Ben
-ben_big_order = False
-ben_gets_cookie = False
+ben_big_order = True
+ben_gets_cookie = True
 
 print("Ben is a member:", ben_is_member)
 print("Ben has a big order:", ben_big_order)
 print("Ben gets a free cookie:", ben_gets_cookie)
 
 # TODO 4: Ben should be invited if he is NOT a member.
-ben_invite = False
+ben_invite = True
 print("Ben should be invited to sign up:", ben_invite)
